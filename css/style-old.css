@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap);
+/* @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap); */
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Archivo', sans-serif !important;
+}
+
+/* Root start */
+:root {
+  --fs-10: 10px !important;
+  --fs-14: 14px !important;
+  --fs-16: 16px !important;
+  --fs-18: 18px !important;
+  --fs-20: 20px !important;
+  --fs-24: 24px !important;
+  --fs-36: 36px !important;
+  --fs-48: 48px !important;
+  --fs-64: 64px !important;
+  --fs-84: 84px !important;
+  --text-primary: #E0FF3B !important;
+  --text-secondary: #FFFFFF !important;
+  --text-tertiary: #171A1F !important;
+  --text-gray: #BDBDBD !important;
+  --text-light-gray: #909090 !important;
+  --bg-lime: #E0FF3B !important;
+  --bg-secondary: #2A2A2A !important;
+  --bg-tertiary: #F3F4F6 !important;
+  --fw-400: 400 !important;
+  /* Regular */
+  --fw-500: 500 !important;
+  /* Medium */
+  --fw-600: 600 !important;
+  /* Semibold */
+  --fw-700: 700 !important;
+  /* Bold */
+  --font-archivo: 'Archivo', sans-serif !important;
+}
+
+/* Root end */
+
+/* Styles start */
+.fs-10 {
+  font-size: var(--fs-10) !important;
+}
+
+.fs-14 {
+  font-size: var(--fs-14) !important;
+}
+
+.fs-16 {
+  font-size: var(--fs-16) !important;
+}
+
+.fs-18 {
+  font-size: var(--fs-18) !important;
+}
+
+.fs-20 {
+  font-size: var(--fs-20) !important;
+}
+
+.fs-24 {
+  font-size: var(--fs-24) !important;
+}
+
+.fs-36 {
+  font-size: var(--fs-36) !important;
+}
+
+.fs-48 {
+  font-size: var(--fs-48) !important;
+}
+
+.fs-64 {
+  font-size: var(--fs-64) !important;
+}
+
+.fs-84 {
+  font-size: var(--fs-84) !important;
+}
+
+
+
+.text-lime {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-tertiary {
+  color: var(--text-tertiary) !important;
+}
+
+.text-gray {
+  color: var(--text-gray) !important;
+}
+
+.text-light-gray {
+  color: var(--text-light-gray) !important;
+}
+
+
+
+.bg-lime {
+  background-color: var(--bg-lime) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary) !important;
+}
+
+.bg-tertiary {
+  background-color: var(--bg-tertiary) !important;
+}
+
+
+
+
+.fw-normal {
+  font-weight: var(--fw-400) !important;
+}
+
+.fw-medium {
+  font-weight: var(--fw-500) !important;
+}
+
+.fw-semi-bold {
+  font-weight: var(--fw-600) !important;
+}
+
+.fw-bold {
+  font-weight: var(--fw-700) !important;
+}
+
+/* Styles end */
+
+
+
+
+
+
+/* Navbar start */
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.input-group .form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: #ccc;
+}
+
+input[type="search"]::placeholder {
+  color: #000;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.bot-logo{
+  height: 90px !important;
+  width:auto !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Navbar end */
+
+
+
+.buiz_logo {
+  width: 25%;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-primary);
+}
+
+.bg-primary {
+  background-color: var(--text-primary) !important;
+}
+
+
+/* Navbar */
+.navbar-nav a.active{
+  color: #d2ff00 !important;
+}
+.secondary-nav{
+  background-color: #171A1F !important;
+}
+
+/* Footer */
+footer{
+  background-color: #171A1F !important;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    --fs-20: 18px !important;
+    --fs-24: 20px !important;
+    --fs-36: 32px !important;
+    --fs-48: 44px !important;
+    --fs-64: 58px !important;
+    --fs-84: 72px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --fs-20: 16px !important;
+    --fs-24: 18px !important;
+    --fs-36: 28px !important;
+    --fs-48: 36px !important;
+    --fs-64: 40px !important;
+    --fs-84: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  :root {
+    --fs-20: 16px !important;
+    --fs-24: 18px !important;
+    --fs-36: 24px !important;
+    --fs-48: 32px !important;
+    --fs-64: 38px !important;
+    --fs-84: 50px !important;
+  }
+}

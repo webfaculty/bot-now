@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Tourism</title>
+      <link rel="shortcut icon" href="./images/icon/bot-fav-icon.webp" type="image/x-icon">
+
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/explore-toursim.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- TOP NAVBAR -->
+  <nav class="navbar navbar-dark bg-black py-3" data-bs-theme="dark">
+    <div class="container-fluid d-flex justify-content-between px-lg-5 px-3 align-items-center">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./images/bot-logo.webp" alt="Logo" class="img-fluid bot-logo" />
+      </a>
+
+      <!-- Search Box -->
+      <form class="d-none d-md-flex mx-auto w-50">
+        <div class="input-group ">
+          <input class="form-control rounded-start-pill border-0 bg-white text-dark  ps-3" type="search"
+            placeholder="Search Here" />
+          <span class="input-group-text bg-white border-0 rounded-end-pill pe-3">
+            <i class="bi bi-search text-dark"></i>
+          </span>
+        </div>
+      </form>
+
+      <!-- Right Icons -->
+      <div class="d-flex gap-3 align-items-center">
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-star"></i></a>
+        <a href="#" class="text-white fs-5"><i class="bi bi-person-circle"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECONDARY NAVBAR -->
+  <nav class="navbar navbar-expand-xl secondary-nav">
+    <div class="container-fluid">
+      <!-- Toggle Button for Small Screens -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links + Language Dropdown -->
+      <div class="collapse navbar-collapse justify-content-evenly align-items-center py-3" id="secondaryNavbar">
+        <!-- Nav Links -->
+        <div class="navbar-nav flex-column flex-xl-row gap-xl-5 gap-md-2">
+          <a class="nav-link fs-16 text-white" href="./index.html">Home</a>
+          <a class="nav-link fs-16 active" href="./explore-tourism.html">Explore Tourism</a>
+          <a class="nav-link fs-16 text-white" href="./discover-tamilnadu.html">Discover TamilNadu</a>
+          <a class="nav-link fs-16 text-white" href="./gallery.html">Spots Gallery</a>
+          <a class="nav-link fs-16 text-white" href="./about.html">About</a>
+          <a class="nav-link fs-16 text-white" href="./blogs.html">Blogs</a>
+          <!-- <a class="nav-link fs-16 text-white" href="#">Take me to the spot</a> -->
+        </div>
+
+        <!-- Language Selector -->
+        <!-- <div class="m-3 m-xl-0 text-dark">
+          <select class="form-select bg-light text-dark text-opacity-75 form-select-sm rounded-3 px-3"
+            style="width: 180px;">
+            <option selected>Select Language</option>
+            <option value="1">English</option>
+            <option value="2">Tamil</option>
+          </select>
+        </div> -->
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Explore Tourism Section start-->
+  <section id="explore-tourism" class="explore-tourism section py-5">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <h1>Explore Tourism</h1>
+
+      <!-- Nav Filters -->
+      <ul class="nav nav-pills gap-2 my-3 justify-content-start mb-5 flex-wrap" id="hubTab" role="tablist">
+        <li class="nav-item"><button class="nav-link fs-16 fw-normal active" data-bs-toggle="pill" data-bs-target="#all"
+            type="button">All</button></li>
+        <li class="nav-item"><button class="nav-link fs-16 fw-normal" data-bs-toggle="pill" data-bs-target="#spiritual"
+            type="button">Spiritual</button></li>
+        <li class="nav-item"><button class="nav-link fs-16 fw-normal" data-bs-toggle="pill" data-bs-target="#historical"
+            type="button">Historical</button></li>
+        <li class="nav-item"><button class="nav-link fs-16 fw-normal" data-bs-toggle="pill"
+            data-bs-target="#entertainment" type="button">Entertainment</button></li>
+
+        <li class="nav-item d-none"><button class="nav-link fs-16 fw-normal" data-bs-toggle="pill"
+            data-bs-target="#adventure" type="button">Adventure</button></li>
+        <li class="nav-item d-none"><button class="nav-link fs-16 fw-normal" data-bs-toggle="pill"
+            data-bs-target="#transportation" type="button">Transportation</button></li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="hubTabContent">
+
+
+        <!-- All pane -->
+        <div class="tab-pane fade show active" id="all">
+          <div class="row g-4">
+
+            <!-- Meenakshi amman temple -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/meenakshi-amman-kovil/Banner/meenakshi-amman-kovil-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                  <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                
+
+                <!-- Body -->
+                <div class="p-3">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Meenakshi Amman Temple</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5 mt-xl-0">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./meenakshi-amman-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Koodal Alagar Temple -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/koodalalagar-temple/Banner/koodalalagar-temple-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Koodal Alagar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./koodal-alagar.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Samanar Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/samanar-kovil/Banner/samanar-kovil-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Samanar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./samanar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Alagar Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/alagar-kovil/banner/alagar-kovil-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Alagar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./alagar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kuruvithurai Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/kurukithurai/Banner/kurukithurai-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Kuruvithurai Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./kuruvithurai-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Yoga narasimar kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/yoga-narasimar-kovil/Banner/yoga-narasimar-kovil-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Yoga narasimar kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./yoga-narasimar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pazhamudir Solai -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/pazhamudir-solai/Banner/pazhamudir-solai-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Pazhamudir Solai</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./pazhamudir-solai.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Goripalayam Dargah -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/gorpalayam-dargha/Banner/gorpalayam-dargha-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Goripalayam Dargah</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./goripalayam-dargah.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ST.Mary's Cathedral -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/st-marys-cathedral/banner/cathedral-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">ST.Mary's Cathedral</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./st-marys-cathedral.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Vishaal De mall -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/vishaal-de-mall/Banner/vishaal-de-mall-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/theater.webp" alt="" class="badge-image img-fluid"> Entertainment</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Vishaal De mall</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./vishaal-de-mall.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Vetri cinemas -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/vetri-cinemas/Banner/vetri-cinemas-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/theater.webp" alt="" class="badge-image img-fluid"> Entertainment</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Vetri cinemas</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./vetri-cinemas.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Samanar Hills -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/samanar-hills/banner/samanar-hills-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/hill-station.png" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Samanar Hills</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./samanar-hills.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gandhi museum -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/gandhi-museum/Banner/gandhi-museum-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/historical.webp" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Gandhi museum</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./gandhi-museum.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thirumalai Nayakkar Mahal -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/thirumalai-nayakkar-mahal/Banner/thirumalai-nayakkar-mahal-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/historical.webp" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Thirumalai Nayakkar Mahal</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./thirumalai-nayakkar-mahal.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Duplicate the card above with new content -->
+
+
+          </div>
+        </div>
+
+        <!-- Spirtual pane -->
+        <div class="tab-pane fade" id="spiritual">
+          <div class="row g-4">
+
+
+            <!-- Meenakshi amman temple -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/meenakshi-amman-kovil/Banner/meenakshi-amman-kovil-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Meenakshi Amman Temple</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5 mt-xl-0">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./meenakshi-amman-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Koodal Alagar Temple -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/koodalalagar-temple/Banner/koodalalagar-temple-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Koodal Alagar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./koodal-alagar.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Samanar Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/samanar-kovil/Banner/samanar-kovil-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Samanar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./samanar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Alagar Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/alagar-kovil/banner/alagar-kovil-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Alagar Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./alagar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kuruvithurai Kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/kurukithurai/Banner/kurukithurai-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Kuruvithurai Kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./kuruvithurai-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Yoga narasimar kovil -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/yoga-narasimar-kovil/Banner/yoga-narasimar-kovil-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Yoga narasimar kovil</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./yoga-narasimar-kovil.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pazhamudir Solai -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/pazhamudir-solai/Banner/pazhamudir-solai-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Pazhamudir Solai</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./pazhamudir-solai.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Goripalayam Dargah -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/gorpalayam-dargha/Banner/gorpalayam-dargha-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Goripalayam Dargah</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./goripalayam-dargah.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ST.Mary's Cathedral -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/st-marys-cathedral/banner/cathedral-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/temple.webp" alt="" class="badge-image img-fluid"> Temple</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">ST.Mary's Cathedral</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./st-marys-cathedral.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Duplicate the card above with new content -->
+          </div>
+        </div>
+
+        <!-- Historical pane -->
+        <div class="tab-pane fade" id="historical">
+          <div class="row g-4">
+
+            <!-- Gandhi museum -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/gandhi-museum/Banner/gandhi-museum-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/historical.webp" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Gandhi museum</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./gandhi-museum.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thirumalai Nayakkar Mahal -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/thirumalai-nayakkar-mahal/Banner/thirumalai-nayakkar-mahal-banner.webp"
+                    class="img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/historical.webp" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Thirumalai Nayakkar Mahal</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./thirumalai-nayakkar-mahal.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Samanar Hills -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/samanar-hills/banner/samanar-hills-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/hill-station.png" alt="" class="badge-image img-fluid"> Historical</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Samanar Hills</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./samanar-hills.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Duplicate the card above with new content -->
+          </div>
+        </div>
+
+        <!-- Entertainment pane -->
+        <div class="tab-pane fade" id="entertainment">
+          <div class="row g-4">
+            
+            <!-- Vishaal De mall -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/vishaal-de-mall/Banner/vishaal-de-mall-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/theater.webp" alt="" class="badge-image img-fluid"> Entertainment</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Vishaal De mall</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./vishaal-de-mall.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Vetri cinemas -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="tourist-card shadow-sm rounded-4 overflow-hidden bg-white position-relative h-100">
+                <!-- Top Image -->
+                <div class="position-relative">
+                  <img src="./images/vetri-cinemas/Banner/vetri-cinemas-banner.webp" class="img-fluid w-100"
+                    style="height: 220px; object-fit: cover;" alt="Meenakshi Amman Temple">
+                  <!-- Badge -->
+                                    <div class="badge-container  d-flex align-items-center justify-content-between px-2">
+                    <span
+                      class="badge text-lime fs-16 fw-normal d-flex align-items-center justify-content-center gap-2 bg-dark">
+                      <img src="./images/Home/icons/theater.webp" alt="" class="badge-image img-fluid"> Entertainment</span>
+                    <button class="favorite btn-lime"><i class="bi bi-star"></i></button>
+                  </div>
+                </div>
+
+                <!-- Body -->
+                <div class="p-3 ">
+                  <h5 class="fw-medium fs-24 text-tertiary mb-3">Vetri cinemas</h5>
+                  <div class="d-flex align-items-center gap-2 mb-2 mt-5">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-clock"></i> 7:00 am to 10:30 pm
+                    </span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-opacity-75 px-3 py-2 d-flex align-items-center gap-1">
+                      <i class="fs-14 bi bi-geo-alt-fill"></i> Madurai, TamilNadu
+                    </span>
+                    <a href="./vetri-cinemas.html"
+                      class="btn btn-lime rounded rounder-2 d-flex justify-content-center align-items-center">
+                      <i class="bi bi-arrow-right fs-5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Duplicate the card above with new content -->
+          </div>
+        </div>
+
+        <!-- Adventure pane -->
+        <div class="tab-pane fade d-none" id="adventure">
+          <p>Adventure Places will appear here.</p>
+        </div>
+
+        <!-- transportation pane -->
+        <div class="tab-pane fade d-none" id="transportation">
+          <p>Transportation details here.</p>
+        </div>
+
+
+      </div>
+
+
+      <!-- Old Layout -->
+      <div class="isotope-layout d-none" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+
+
+
+        <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+          <ul class="portfolio-filters isotope-filters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-web">Spiritual</li>
+            <li data-filter=".filter-graphics">Historical</li>
+            <li data-filter=".filter-motion">Adventure</li>
+            <li data-filter=".filter-brand">Transportation</li>
+            <li data-filter=".filter-brand">Entertainment</li>
+          </ul>
+        </div>
+
+        <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-web">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/Meenakshiamman.webp" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Meenakshi Amman Temple</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/vetri-cinimas.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Vetri Cinemas-MGR Bus stand</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/koodalalagar.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Koodal Alagar Kovil</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8  d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/samanar malai.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Samanar Kovil Mountain</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/alagarkovil.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Alagar Kovil</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/kuruvi thurai.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Kuruvi Thurai Perumal Temple</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/narasimar.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Yoga Narasimhar Temple</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 portfolio-item isotope-item filter-graphics">
+            <div class="portfolio-card bg-light text-dark">
+              <div class="portfolio-image">
+                <img src="./images/Explore tourism/vishaaldemaal.webp" class="img-fluid" alt="" loading="lazy">
+
+              </div>
+              <div class="portfolio-content">
+                <h3 class="py-lg-2 py-md-2 py-2">Visaal De Mall</h3>
+                <div class="row d-flex justify-content-between align-items-end gap-lg-0 gap-md-3 gap-3">
+                  <div class="col-8 d-flex flex-column gap-lg-0 gap-md-3 gap-3">
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium small">
+                      <i class="bi bi-clock-history"></i> &nbsp;7:00 am to 10:30 pm
+                    </p>
+                    <p class="rounded-pill px-lg-3 px-md-3 px-3 badge text-bg-secondary fw-medium mt-lg-2 small">
+                      <i class="bi bi-geo-alt"></i>&nbsp;Madurai, TamilNadu
+                    </p>
+                  </div>
+
+                  <div class="col-3">
+                    <button class="btn bg-primary text-tertiary fs-4"><i class="bi bi-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+
+
+        </div>
+        <!-- End Portfolio Container -->
+
+      </div>
+    </div>
+  </section>
+  <!-- Explore Tourism Section end-->
+
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid py-lg-5 py-md-4 py-3 text-white">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div
+            class="col-lg-3 col-md-4 col-12 p-3 p-lg-3 p-md-3 text-center d-flex justify-content-center align-items-center">
+            <img src="./images/bot-footer-logo.webp" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-8 col-md-7 pt-lg-0 pt-md-0 pt-4">
+            <p class="text-lg-start text-md-start text-center">Welcome to the Best of Tamil Nadu (BOT), Our forum stands
+              as a beacon, leading the way to
+              elevate tourism in the region through innovation, collaboration and a steadfast commitment
+              to our mission and vision.</p>
+            <p class="text-lime text-lg-start text-md-start text-center fw-medium fs-5"><i>"Where every journey tells
+                a cultural tale - Tourism
+                Redefined"</i>
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-lg-5 pt-md-4 pt-4 d-flex justify-content-between align-items-baseline">
+          <div class="col-lg-3 col-md-6 col-12">
+            <h4 class="text-lg-start text-md-start text-center">Subscribe for new update!!</h4>
+            <form action="" class="d-flex gap-lg-2 gap-md-2 gap-2  px-2 py-1 rounded-4 bg-light bg-opacity-25">
+              <input type="email" class="form-control border-0 bg-transparent px-3 " name="" id=""
+                placeholder="&#x2709; Email">
+              <button class="btn bg-primary text-tertiary rounded-4 "><i class="bi bi-arrow-right fs-4"></i></button>
+            </form>
+          </div>
+
+          <div class="col-lg-8 col-md-12 ">
+            <ul
+              class="list-unstyled py-md-3 py-5 navbar-nav d-flex flex-lg-row flex-md-row flex-column text-center justify-content-lg-start justify-content-center gap-lg-5 gap-md-4 gap-4">
+              <li class="fs-6">
+                <a class="nav-link p-0 m-0" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="fs-6">
+                <a class="nav-link p-0 m-0 active" href="./explore-tourism.html">Explore Tourism</a>
+              </li>
+              <li class="fs-6">
+                <a class="nav-link p-0 m-0" href="./discover-tamilnadu.html">Discover Tamilnadu</a>
+              </li>
+              <li class="fs-6">
+                <a class="nav-link p-0 m-0" href="./about.html">About</a>
+              </li>
+              <li class="fs-6">
+                <a class="nav-link p-0 m-0" href="./blogs.html">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center pt-lg-3 pt-md-4">
+          <div class="col-lg-4 col-md-7 d-flex justify-content-evenly fs-5 ">
+            <p class="fw-bold">Social Media</p>
+
+            <a href="https://www.facebook.com/bestoftamilnadu" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-facebook"></i></a>
+
+            <a href="https://www.instagram.com/bestoftamilnadu/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-instagram"></i></a>
+            
+            <a href="https://linkedin.com/company/best-of-tamil-nadu/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-linkedin"></i></a>
+
+            <a href="https://x.com/BestofTNbot" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-twitter-x"></i></a>
+
+            <a href="https://www.pinterest.com/bestoftamilnaduofficial/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-pinterest"></i></a>
+
+            <a href="https://www.youtube.com/@bestoftamilnaduofficial" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-youtube"></i></a>
+
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center pt-lg-5 pt-md-4">
+          <div
+            class="col-lg-12  col-md-12 d-flex flex-lg-nowrap flex-md-wrap flex-wrap justify-content-lg-between justify-content-center align-items-center py-2 gap-lg-0 gap-3">
+
+            <div
+              class="col-lg-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center gap-3">
+              <span class="text-center w-100">
+                <a href="./privacy-policy.html" class="small text-decoration-underline text-light me-4">Privacy
+                  Policy</a>
+                <a href="./terms-and-conditions.html" class="small text-decoration-underline text-light me-4">Terms &
+                  Conditions</a>
+              </span>
+            </div>
+
+            <div
+              class="col-lg-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center">
+              <span class="text-center w-100">All rights @ reserved from Best of Tamilnadu</span>
+            </div>
+
+            <div
+              class="col-lg-4  col-12 d-flex justify-content-lg-end justify-content-md-center justify-content-center align-items-center gap-3">
+              <span class="small">Designed and Developed by </span>
+              <img src="./images/Home/BuizLogo.webp" class="img-fluid buiz_logo object-fit-contain" alt=""
+                onclick="buizLogo()">
+            </div>
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+
+
+</html>

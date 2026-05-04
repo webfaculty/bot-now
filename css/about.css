@@ -1,0 +1,61 @@
+.about-background {
+    background: url('../images/About/Banner.webp');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+}
+
+.about-background .image-container {
+    height: 200px !important;
+    position: absolute;
+    bottom: -50px !important;
+}
+
+.sign-logo {
+    width: 50% !important
+}
+
+.mission {
+    background: url('../images/About/image-106.png');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.mission-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.tiruvalluvar {
+    background: url(../images/About/Thiruvaluvar.webp);
+    height: 70vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+@media only screen and (max-width:400px) {
+    .about-background .image-container {
+        height: 150px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .sign-logo {
+        width: 60% !important
+    }
+    .tiruvalluvar {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .tiruvalluvar {
+        height: 100vh;
+    }
+    .sign-logo {
+        width: 100% !important
+    }
+}

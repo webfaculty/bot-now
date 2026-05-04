@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samanar Hills</title>
+      <link rel="shortcut icon" href="./images/icon/bot-fav-icon.webp" type="image/x-icon">
+
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/samanar-hills.css">
+
+</head>
+
+<body>
+
+
+  <!-- TOP NAVBAR -->
+  <nav class="navbar navbar-dark bg-black py-3" data-bs-theme="dark">
+    <div class="container-fluid d-flex justify-content-between px-lg-5 px-3 align-items-center">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./images/bot-logo.webp" alt="Logo" class="img-fluid bot-logo" />
+      </a>
+
+      <!-- Search Box -->
+      <form class="d-none d-md-flex mx-auto w-50">
+        <div class="input-group ">
+          <input class="form-control rounded-start-pill border-0 bg-white text-dark  ps-3" type="search"
+            placeholder="Search Here" />
+          <span class="input-group-text bg-white border-0 rounded-end-pill pe-3">
+            <i class="bi bi-search text-dark"></i>
+          </span>
+        </div>
+      </form>
+
+      <!-- Right Icons -->
+      <div class="d-flex gap-3 align-items-center">
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-star"></i></a>
+        <a href="#" class="text-white fs-5"><i class="bi bi-person-circle"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECONDARY NAVBAR -->
+  <nav class="navbar navbar-expand-xl secondary-nav">
+    <div class="container-fluid">
+      <!-- Toggle Button for Small Screens -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links + Language Dropdown -->
+      <div class="collapse navbar-collapse justify-content-evenly align-items-center py-3" id="secondaryNavbar">
+        <!-- Nav Links -->
+        <div class="navbar-nav flex-column flex-xl-row gap-xl-5 gap-md-2">
+          <a class="nav-link fs-16 text-white" href="./index.html">Home</a>
+          <a class="nav-link fs-16 text-white" href="./explore-tourism.html">Explore Tourism</a>
+          <a class="nav-link fs-16 text-white" href="./discover-tamilnadu.html">Discover TamilNadu</a>
+          <a class="nav-link fs-16 text-white" href="./gallery.html">Spots Gallery</a>
+          <a class="nav-link fs-16 text-white" href="./about.html">About</a>
+          <a class="nav-link fs-16 text-white" href="./blogs.html">Blogs</a>
+          <a class="nav-link fs-16 text-white" href="#">Take me to the spot</a>
+        </div>
+
+        <!-- Language Selector -->
+        <!-- <div class="m-3 m-xl-0 text-dark">
+          <select class="form-select bg-light text-dark text-opacity-75 form-select-sm rounded-3 px-3"
+            style="width: 180px;">
+            <option selected>Select Language</option>
+            <option value="1">English</option>
+            <option value="2">Tamil</option>
+          </select>
+        </div> -->
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="location-name-container py-lg-2 py-3">
+    <a href="./index.html" class="ms-4 d-flex align-items-center text-decoration-none text-light p-0 m-0"><i
+        class="bi bi-arrow-left fs-2"></i> &nbsp;<h2 class="p-0 m-0"> Samanar Hills</h2>
+    </a>
+  </div>
+
+  <div class="container-fluid Spot-banner">
+
+    <div class="container">
+      <div class="row py-lg-3 py-md-3">
+
+        <div class="d-flex flex-lg-row flex-md-column flex-column justify-content-between py-lg-0 py-md-0 py-4">
+          <p class="d-flex flex-lg-row flex-md-row flex-column gap-lg-2 gap-md-2 gap-2 ">
+            <span class="badge text-bg-light px-4 py-2 d-flex align-items-center justify-content-center">
+              Morning 6:00 am – 12:00 pm || Evening 4:00 pm –
+              9:00 pm</span> 
+              <span class="px-4 py-2 badge text-bg-light d-lg-flex d-inline align-items-center justify-content-lg-center justify-content-start gap-2">
+                <img src="./images/spots-gallery/temp.png"
+                alt="" class="object-fit-contain temp-image"> <span>35<sup>o</sup>C</span></span>
+          </p>
+          <div class="Butttons d-flex gap-2">
+            <button class="btn bg-primary text-tertiary">Take me to the Spot <i
+                class="bi bi-chevron-right"></i></button>
+            <button class="btn btn-light"><i class="bi bi-star"></i></button>
+            <button class="btn btn-light"><i class="bi bi-share"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="conntainer-fluid ">
+    <div class="container py-lg-5 py-md-4 py-3">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+              tabindex="0"><img src="./images/samanar-hills/Description-section/samanar-hills-description-1.webp" class="img-fluid" alt=""></div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0"><img src="./images/samanar-hills/Description-section/samanar-hills-description-2.webp" class="img-fluid" alt=""></div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+              tabindex="0"><img src="./images/samanar-hills/Description-section/samanar-hills-description-3.webp" class="img-fluid" alt=""></div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+              tabindex="0"><img src="./images/samanar-hills/Description-section/samanar-hills-description-4.webp" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex flex-column gap-lg-3 gap-md-0">
+          <h2>Samanar Hills (Madurai)</h2>
+          <p>Samanar Hills, also known as Samanar Malai, is an ancient Jain site located near Madurai. The site features rock-cut caves, Tamil-Brahmi inscriptions, and sculptures of Jain Tirthankaras. The hills provide a serene atmosphere with a panoramic view of the surrounding area.</p>
+
+          <div class="nav nav-pills mb-3 d-flex" id="pills-tab" role="tablist">
+            <li class="nav-item col-lg-3 col-md-3 col-3" role="presentation">
+              <img src="./images/samanar-hills/Description-section/samanar-hills-description-1.webp" class="nav-link active img-fluid w-100"
+                id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                aria-controls="pills-home" aria-selected="true">
+            </li>
+            <li class="nav-item col-lg-3 col-md-3 col-3" role="presentation">
+              <img src="./images/samanar-hills/Description-section/samanar-hills-description-2.webp" class="nav-link img-fluid w-100" id="pills-profile-tab"
+                data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                aria-controls="pills-profile" aria-selected="false">
+            </li>
+            <li class="nav-item col-lg-3 col-md-3 col-3" role="presentation">
+              <img src="./images/samanar-hills/Description-section/samanar-hills-description-3.webp" class="nav-link img-fluid w-100" id="pills-contact-tab"
+                data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                aria-controls="pills-contact" aria-selected="false">
+
+            </li>
+            <li class="nav-item col-lg-3 col-md-3 col-3" role="presentation">
+              <img src="./images/samanar-hills/Description-section/samanar-hills-description-4.webp" class="nav-link img-fluid w-100" id="pills-disabled-tab"
+                data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab"
+                aria-controls="pills-contact" aria-selected="false">
+            </li>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row py-lg-5 py-md-3">
+        <div class="col-lg-6">
+          <h2>History of Samanar Hills (Madurai)</h2>
+          <p class="mt-lg-4 mt-md-4 mt-sm-2">The Samanar Hills (also called Samana Malai or Jain Hills) in Keelakuyilkudi, near Madurai, is a 2,000-year-old historical site showcasing Tamil Nadu's rich Jain heritage. These rocky hills feature ancient Jain caves, inscriptions, and stone carvings dating back to the 1st–3rd century CE, when Jainism flourished under the Pandya dynasty. The site includes meditative shelters (beds carved into rocks), Tamil-Brahmi inscriptions, and stunning bas-relief sculptures of Jain Tirthankaras, particularly Lord Mahavira. Unlike other Jain sites in Tamil Nadu, Samanar Hills uniquely blends spiritual, archaeological, and natural beauty, with panoramic views of Madurai from the hilltop. The annual Mahavir Jayanti festival sees Jain devotees and history enthusiasts visiting this serene, offbeat destination.
+Key Highlights:
+
+
+ Ancient Jain Caves – Rock-cut shelters used by Jain monks for meditation over 2,000 years ago.
+
+ Tamil-Brahmi Inscriptions – Some of the oldest Jain scripts in Tamil Nadu, detailing monks’ lives.
+
+ Sculptures of Tirthankaras – Exquisite bas-relief carvings of Jain saints, including Mahavira and Parshvanatha.
+
+ Natural Rock Beds – Flat stone beds where ascetics practiced severe penance (Kayotsarga posture).
+
+ Pandya-Era Legacy – Proof of Jainism’s prominence in pre-Pallava Tamilakam.
+
+Offbeat & Serene – Less crowded than Madurai’s temples, ideal for peaceful hikes and photography.
+
+ Mahavir Jayanti Celebrations – Annual festival (March/April) with prayers and cultural events.
+
+ Panoramic Views – The hilltop offers 360° vistas of Madurai and surrounding plains.
+
+ UNESCO Potential – Recognized as a protected monument by the Archaeological Survey of India (ASI).</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="./images/samanar-hills/History/samanar-hills-history.webp" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="container py-lg-5 py-3">
+        <h3>Famous Events</h3>
+        <div class="row d-flex justify-content-center px-lg-5 px-md-2 px-0">
+            <div class="col-lg-4 col-md-4 col-12">
+              <img src="./images/samanar-hills/Event/samanar-hills-event-1.webp" class="w-100" alt="">
+              <h5 class="mt-2">Pongal Celebration (January)</h5>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+              <img src="./images/samanar-hills/Event/samanar-hills-event-2.webp" class="w-100" alt="">
+              <h5 class="mt-2">Heritage Walks & Cultural Tours (Dec–Feb) </h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <img src="./images/samanar-hills/Event/samanar-hills-event-3.webp" class="w-100" alt="">
+              <h5 class="mt-2">Spiritual Meditation Treks (Year-round) </h5>
+            </div>
+        </div>
+      </div>
+
+      <!-- Near by Spots -->
+      <div class="container">
+        <h3>Nearby-spots</h3>
+        <div class="row d-flex gap-3 justify-content-center">
+          <div class="col-lg-5 bg-dark-subtle p-3 rounded-3">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./images/spots-gallery/meenakshiamman.webp" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-between">
+                <h5>Meenakshi Amman Temple</h5>
+                <p class="small">The Meenakshi Amman Temple in Madurai, Tamil Nadu, is a renowned Hindu
+                  temple complex dedicated to Goddess Meenakshi (Parvati) and her consort, Lord
+                  Sundareswarar (Shiva).</p>
+
+                <div class="d-flex justify-content-between">
+                  <p><i class="bi bi-eye"></i> 4M Tourists Visited</p> <a href="./meenakshi-amman-kovil.html"
+                    class="text-decoration-none text-lime">View
+                    More <i class="bi bi-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 bg-dark-subtle p-3 rounded-3">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./images/spots-gallery/palace.webp" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-between">
+                <h5>Thirumalai Nayakkar Mahal</h5>
+                <p class="small">Thirumalai Nayakkar Mahal is a palace completed in 1636 by Tirumala
+                  Nayaka, a king of the Madurai Nayak dynasty, who ruled Madurai from 1623 to 1659. It
+                  is located 2 km (1.2 mi) to the southeast of the Meenakshi Amman Temple in central
+                  Madurai.
+                </p>
+
+                <div class="d-flex justify-content-between">
+                  <p><i class="bi bi-eye"></i> 4M Tourists Visited</p> <a href="./thirumalai-nayakkar-mahal.html"
+                    class="text-decoration-none text-lime">View
+                    More <i class="bi bi-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 bg-dark-subtle p-3 rounded-3">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./images/spots-gallery/palamudhirsolai.webp" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-between">
+                <h5>Pazhamudir Solai</h5>
+                <p class="small">At a distance of 23 kms north-east of Madurai (4 Kms from Alagar Koil),
+                  Pazhamudhir Solai is a beautiful temple created in the memory of Lord Subramaniya
+                  who is worshipped by several people in southern India. </p>
+
+                <div class="d-flex justify-content-between">
+                  <p><i class="bi bi-eye"></i> 4M Tourists Visited</p> <a href="./pazhamudir-solai.html"
+                    class="text-decoration-none text-lime">View
+                    More <i class="bi bi-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 bg-dark-subtle p-3 rounded-3">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./images/spots-gallery/dharga.webp" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-between">
+                <h5>Goripalayam Dargah</h5>
+                <p class="small">The Goripalayam Mosque is a large mosque and dargah complex, located in
+                  the
+                  Goripalayam area of Madurai City, in the state of Tamil Nadu, India.
+                  The mosque contains the tombs of the Sultan of Yemen, Khaja Syed Sultan Alauddin
+                  Badusha Razi.</p>
+<div class="d-flex justify-content-between">
+                  <p><i class="bi bi-eye"></i> 4M Tourists Visited</p> <a href="./goripalayam-dargah.html"
+                    class="text-decoration-none text-lime">View
+                    More <i class="bi bi-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+          <!-- Footer -->
+        <footer>
+          <div class="container-fluid py-lg-5 py-md-4 py-3 text-white">
+            <div class="container">
+              <div class="row d-flex justify-content-between">
+                <div
+                  class="col-lg-3 col-md-4 col-12 p-3 p-lg-3 p-md-3 text-center d-flex justify-content-center align-items-center">
+                  <img src="./images/bot-footer-logo.webp" class="img-fluid" alt="">
+                </div>
+      
+                <div class="col-lg-8 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                  <p class="text-lg-start text-md-start text-center">Welcome to the Best of Tamil Nadu (BOT), Our forum stands
+                    as a beacon, leading the way to
+                    elevate tourism in the region through innovation, collaboration and a steadfast commitment
+                    to our mission and vision.</p>
+                  <p class="text-lime text-lg-start text-md-start text-center fw-medium fs-5"><i>"Where every journey tells
+                      a cultural tale - Tourism
+                      Redefined"</i>
+                  </p>
+                </div>
+              </div>
+      
+              <div class="row pt-lg-5 pt-md-4 pt-4 d-flex justify-content-between align-items-baseline">
+                <div class="col-lg-3 col-md-6 col-12">
+                  <h4 class="text-lg-start text-md-start text-center">Subscribe for new update!!</h4>
+                  <form action="" class="d-flex gap-lg-2 gap-md-2 gap-2  px-2 py-1 rounded-4 bg-light bg-opacity-25">
+                    <input type="email" class="form-control border-0 bg-transparent px-3 " name="" id=""
+                      placeholder="&#x2709; Email">
+                    <button class="btn bg-primary text-tertiary rounded-4 "><i class="bi bi-arrow-right fs-4"></i></button>
+                  </form>
+                </div>
+      
+                <div class="col-lg-8 col-md-12 ">
+                  <ul
+                    class="list-unstyled py-md-3 py-5 navbar-nav d-flex flex-lg-row flex-md-row flex-column text-center justify-content-lg-start justify-content-center gap-lg-5 gap-md-4 gap-4">
+                    <li class="fs-6">
+                      <a class="nav-link p-0 m-0" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="fs-6">
+                      <a class="nav-link p-0 m-0" href="./explore-tourism.html">Explore Tourism</a>
+                    </li>
+                    <li class="fs-6">
+                      <a class="nav-link p-0 m-0" href="./discover-tamilnadu.html">Discover Tamilnadu</a>
+                    </li>
+                    <li class="fs-6">
+                      <a class="nav-link p-0 m-0" href="./about.html">About</a>
+                    </li>
+                    <li class="fs-6">
+                      <a class="nav-link p-0 m-0" href="./blogs.html">Blogs</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        <div class="row d-flex justify-content-center pt-lg-3 pt-md-4">
+          <div class="col-lg-4 col-md-7 d-flex justify-content-evenly fs-5 ">
+            <p class="fw-bold">Social Media</p>
+
+            <a href="https://www.facebook.com/bestoftamilnadu" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-facebook"></i></a>
+
+            <a href="https://www.instagram.com/bestoftamilnadu/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-instagram"></i></a>
+            
+            <a href="https://linkedin.com/company/best-of-tamil-nadu/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-linkedin"></i></a>
+
+            <a href="https://x.com/BestofTNbot" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-twitter-x"></i></a>
+
+            <a href="https://www.pinterest.com/bestoftamilnaduofficial/" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-pinterest"></i></a>
+
+            <a href="https://www.youtube.com/@bestoftamilnaduofficial" target="_blank" class="text-decoration-none text-secondary"><i class="bi bi-youtube"></i></a>
+
+          </div>
+        </div>
+      
+              <div class="row d-flex justify-content-center align-items-center pt-lg-5 pt-md-4">
+                <div
+                  class="col-lg-12  col-md-12 d-flex flex-lg-nowrap flex-md-wrap flex-wrap justify-content-lg-between justify-content-center align-items-center py-2 gap-lg-0 gap-3">
+      
+                  <div
+                    class="col-lg-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center gap-3">
+                    <span class="text-center w-100">
+                      <a href="./privacy-policy.html" class="small text-decoration-underline text-light me-4">Privacy
+                        Policy</a>
+                      <a href="./terms-and-conditions.html" class="small text-decoration-underline text-light me-4">Terms &
+                        Conditions</a>
+                    </span>
+                  </div>
+      
+                  <div
+                    class="col-lg-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center">
+                    <span class="text-center w-100">All rights @ reserved from Best of Tamilnadu</span>
+                  </div>
+      
+                  <div
+                    class="col-lg-4  col-12 d-flex justify-content-lg-end justify-content-md-center justify-content-center align-items-center gap-3">
+                    <span class="small">Designed and Developed by </span>
+                    <img src="./images/Home/BuizLogo.webp" class="img-fluid buiz_logo object-fit-contain" alt="" onclick="buizLogo()">
+                  </div>
+      
+      
+      
+      
+      
+      
+      
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </footer>
+        <!-- Footer End -->
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+ 
+</body>
+
+</html>

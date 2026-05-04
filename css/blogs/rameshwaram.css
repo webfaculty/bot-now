@@ -1,0 +1,22 @@
+.background {
+    background: url('../../images/Blogs/rameshwaram-blog/rameshwaram-blog-banner.webp');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: #171A1F !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .banner-content {
+        position: absolute;
+        bottom: -50px;
+        left: 12%;
+    }
+}
